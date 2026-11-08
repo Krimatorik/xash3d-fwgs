@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Xash3D FWGS (Test)</string>
+    <!-- CS 1.6 в браузере: своё имя приложения для той самой сборки continuous, которую мы собираем и раздаём -->
+    <string name="app_name" translatable="false">CS 1.6 в браузере</string>
     <string name="authority" translatable="false">su.xash.engine.test.documents</string>
 </resources>

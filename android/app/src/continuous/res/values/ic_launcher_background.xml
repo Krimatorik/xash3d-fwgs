@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CS 1.6 в браузере: фон значка — тот же тёмный, что и у сайта (токен bg: #363f31) -->
+<resources>
+	<color name="ic_launcher_background">#363f31</color>
+</resources>

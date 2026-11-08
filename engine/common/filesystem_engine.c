@@ -34,8 +34,8 @@ GNU General Public License for more details.
 static CVAR_DEFINE_AUTO( fs_mount_hd, "0", FCVAR_PRIVILEGED, "mount high definition content folder" );
 static CVAR_DEFINE_AUTO( fs_mount_lv, "0", FCVAR_PRIVILEGED, "mount low violence models content folder" );
 static CVAR_DEFINE_AUTO( fs_mount_addon, "0", FCVAR_PRIVILEGED, "mount addon content folder" );
-static CVAR_DEFINE_AUTO( fs_mount_l10n, "0", FCVAR_PRIVILEGED, "mount localization content folder" );
-static CVAR_DEFINE_AUTO( ui_language, "english", FCVAR_PRIVILEGED, "selected game language" );
+static CVAR_DEFINE_AUTO( fs_mount_l10n, "1", FCVAR_PRIVILEGED, "mount localization content folder" ); // CS 1.6 в браузере: включено по умолчанию, как и при аргументе -language (ниже)
+static CVAR_DEFINE_AUTO( ui_language, "russian", FCVAR_PRIVILEGED, "selected game language" ); // CS 1.6 в браузере: по умолчанию русский, как на сайте
 
 fs_api_t g_fsapi;
 fs_globals_t *FI;

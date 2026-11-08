@@ -13,13 +13,19 @@
 #define VER_FILETYPE		VFT_DLL
 #define VER_FILESUBTYPE		VFT2_UNKNOWN
 
+// CS 1.6 в браузере: название и значок — свои (ниже и icon-xash-material.ico), а автор движка и копирайт
+// оставлены как есть — это честно: движок написан командой Flying With Gauss, мы его не переименовываем.
+// Кириллицу сюда не ставим: при VER_ANSICP это узкие ANSI-строки ресурса, а не UTF-8, и без доступа к
+// сборке на Windows/MSVC проверить кодировку негде — рисковать поломкой сборки ради текста в свойствах
+// файла (Проводник → Свойства → Подробно; почти никто туда не заходит) того не стоит. Основной брендинг,
+// который реально видно, — значок (иконка .exe в Проводнике/панели задач) и имя Android-приложения.
 #define VER_COMPANYNAME_STR	"Flying With Gauss"
 #define VER_LEGALCOPYRIGHT_STR	"Flying With Gauss"
-#define VER_PRODUCTNAME_STR	"Xash3D Launcher"
+#define VER_PRODUCTNAME_STR	"CS 1.6 Browser Build"
 
 #define VER_ANSICP
 
-#define VER_FILEDESCRIPTION_STR		"Xash3D FWGS Launcher"
+#define VER_FILEDESCRIPTION_STR		"CS 1.6 Browser Build (Xash3D FWGS engine)"
 #define VER_ORIGINALFILENAME_STR	"xash.exe"
 #define VER_INTERNALNAME_STR		"xash"
 
